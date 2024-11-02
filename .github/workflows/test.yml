@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, alma8]
+    runs-on: self-hosted
     steps:
       - name: Verify OS
         run: |
